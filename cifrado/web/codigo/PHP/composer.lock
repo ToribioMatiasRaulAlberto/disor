@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13e44fbf65eacea69b6429f92ac6b8cf",
+    "packages": [
+        {
+            "name": "pradosoft/prado",
+            "version": "3.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pradosoft/prado.git",
+                "reference": "e90646f3455630702ad5fe9d4f4beeea3d7b42ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pradosoft/prado/zipball/e90646f3455630702ad5fe9d4f4beeea3d7b42ed",
+                "reference": "e90646f3455630702ad5fe9d4f4beeea3d7b42ed",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.3"
+            },
+            "provide": {
+                "pradosoft/prado": "3.3.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "4.*",
+                "ext-xdebug": "*",
+                "phing/phing": "2.*",
+                "phpunit/dbunit": ">=1.2",
+                "phpunit/php-invoker": "*",
+                "phpunit/phpunit": "4.*",
+                "phpunit/phpunit-selenium": ">=1.2",
+                "phpunit/phpunit-story": "*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "ext-apc": "*",
+                "ext-eaccelerator": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-mbstring": "*",
+                "ext-mcrypt": "*",
+                "ext-memcache": "*",
+                "ext-pdo": "*",
+                "ext-soap": "*",
+                "ext-xcache": "*",
+                "ext-xsl": "*",
+                "ext-zlib": "*"
+            },
+            "bin": [
+                "bin/prado-cli"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "framework"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabio Bas",
+                    "email": "ctrlaltca@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ciro Mattia Gonano",
+                    "email": "ciromattia@gmail.com",
+                    "role": "Github/Packagist Maintainer"
+                },
+                {
+                    "name": "David Otto",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jens Klaer",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Sampedro",
+                    "email": "darthdaniel85@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Component Framework for PHP",
+            "homepage": "https://github.com/pradosoft/prado",
+            "keywords": [
+                "component",
+                "framework"
+            ],
+            "time": "2018-01-25T11:18:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

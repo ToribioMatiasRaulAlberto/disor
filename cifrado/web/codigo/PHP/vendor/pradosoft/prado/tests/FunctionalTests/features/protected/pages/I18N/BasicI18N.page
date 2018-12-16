@@ -1,0 +1,31 @@
+<%@ Title="Basic I18N Test" Application.Globalization.Culture="zh_CN" %>
+<com:TContent ID="Content">
+<h1>Basic I18N Test</h1>
+<com:TTranslate>
+	Hello {name}
+		<com:TTranslateParameter Key="name">
+			<com:TLabel>
+				<com:TTranslate>Name</com:TTranslate>
+			</com:TLabel>
+		</com:TTranslateParameter>
+</com:TTranslate>
+
+<div>
+<com:TNumberFormat Value="10000" Type="currency"/>
+</div>
+<div><com:TDateFormat Value="2006-01-15" Culture="zh_CN"/></div>
+
+<div>
+<com:TChoiceFormat Value="0">
+	[0] None |[1] One thing. |[2,Inf) Many things.
+</com:TChoiceFormat><br />
+
+<com:TChoiceFormat Value="1">
+	[0] None |[1] One thing. |[2,Inf) Many things.
+</com:TChoiceFormat><br />
+
+<com:TChoiceFormat Value="5">
+	[0] None |[1] One thing. |[2,Inf) Many things.
+</com:TChoiceFormat>
+</div>
+</com:TContent>

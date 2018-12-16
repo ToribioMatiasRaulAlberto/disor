@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Welcome to PRADO</title>
+</head>
+<body>
+<h1>Cifrados</h1>
+
+ <com:TForm>
+ 	
+ 		<com:TLabel 
+      		Text="Texto Plano:"
+    		ForeColor="black"
+    		BackColor="white"
+   	 		Font.Name="Arial"
+    		Font.Size="12pt"
+      	/>
+      	<com:TTextBox ID="inputPlano" Width="300px" onTextChanged="buttonClicked" />
+    <com:TPanel GroupingText="Cifrado Cesar" Width="400px">
+    	<com:TLabel 
+    		Text="Desplazamiento:"
+   	 		Font.Name="Arial"
+    		Font.Size="12pt"
+    	/>
+    	<com:TTextBox 
+    		TextMode="Number" 
+    		Text="0" 
+    		Attributes.min="0" 
+    		Attributes.max="100" 
+    		Attributes.step="1" 
+    	/>
+    	<br><br>
+    	<com:TTextBox TextMode="MultiLine" Width="300px" />
+
+    	</com:TPanel>
+    <com:TPanel GroupingText="Transposicion inversa" Width="400px">
+    	<com:TTextBox TextMode="MultiLine" Width="300px" />
+    </com:TPanel>
+    <com:TPanel GroupingText="Transposicion inv agrupacion" Width="400px">
+    <com:TLabel 
+    		Text="Agrupacion:"
+   	 		Font.Name="Arial"
+    		Font.Size="12pt"
+    	/>
+    	<com:TTextBox 
+    		TextMode="Number" 
+    		Text="0" 
+    		Attributes.min="0" 
+    		Attributes.max="100" 
+    		Attributes.step="1" 
+    	/>
+    	<br><br>
+    	<com:TTextBox TextMode="MultiLine" Width="300px" />
+    </com:TPanel>
+ </com:TForm>
+ 
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+  <paths>
+	<using namespace="System.I18N.*" />
+  </paths>
+  <modules>
+	<module id="globalization" class="TGlobalization">
+    	<translation type="XLIFF"
+        	source="Application.messages"
+        		autosave="true"/>
+	</module>
+  </modules>	
+
+  <pages MasterClass="Application.pages.Layout" />
+</configuration>

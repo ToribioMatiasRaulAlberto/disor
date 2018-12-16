@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pradosoft/prado": "~3.2"
+    }
+}
